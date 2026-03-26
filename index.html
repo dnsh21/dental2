@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrightSmile Dental Clinic</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hero Section */
+.hero {
+    background: #e6f7ff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero h1 {
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+}
+.btn {
+    display: inline-block;
+    background: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Services */
+.services ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.services li {
+    padding: 10px;
+}
+
+/* Doctor */
+.doctor {
+    text-align: center;
+}
+.doctor img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>BrightSmile Dental Clinic</h1>
+    <p>Your Smile, Our Priority</p>
+    <p>📞 Call Now: +91 9876543210</p>
+    <a href="#contact" class="btn">Book Appointment</a>
+</section>
+
+<!-- Services -->
+<section class="services container">
+    <h2>Our Services</h2>
+    <ul>
+        <li>✔ Teeth Cleaning</li>
+        <li>✔ Braces & Aligners</li>
+        <li>✔ Dental Implants</li>
+        <li>✔ Teeth Whitening</li>
+    </ul>
+</section>
+
+<!-- Doctor -->
+<section class="doctor container">
+    <h2>Meet Our Doctor</h2>
+    <img src="https://via.placeholder.com/120" alt="Doctor">
+    <p><strong>Dr. Sharma</strong></p>
+    <p>10+ years of experience in advanced dental care.</p>
+</section>
+
+<!-- Map -->
+<section class="container">
+    <h2>Find Us</h2>
+    <iframe 
+        src="https://maps.google.com/maps?q=delhi&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        width="100%" height="250" style="border:0;">
+    </iframe>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="container">
+    <h2>Book Appointment</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 BrightSmile Dental Clinic</p>
+</footer>
+
+</body>
+</html>
